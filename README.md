@@ -4,7 +4,7 @@ Mini Message Board is a simple web application built to learn Node.js and Expres
 
 ## Try It Out
 
-Check out the live demo of the Mini Message Board application [here]().
+Check out the live demo of the Mini Message Board application [here](https://mini-message-board-production-9bb5.up.railway.app).
 
 ## Features
 
