@@ -1,7 +1,11 @@
-const messages = require("../data/message");
+const db = require("../db/queries");
 
 module.exports = {
-  get: (req, res) => {
-    res.render("index", { title: "Mini Messageboard", messages: messages });
+  get: async (req, res) => {
+    const messages = await db.getMessages();
+    res.render("index", {
+      title: "Mini Messageboard",
+      messages: messages,
+    });
   },
 };
